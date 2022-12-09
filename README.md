@@ -2,10 +2,9 @@
 
 This repository contains material related to the paper 
 
-```
-Dimitrios P. Giakatos, Sofia Kostoglou, Pavlos Sermpezis, Athena Vakali, "Benchmarking Graph Neural Networks for Internet Routing Data", in Proc. ACM CoNEXT (GNNet workshop), December 2022
+`Dimitrios P. Giakatos, Sofia Kostoglou, Pavlos Sermpezis, Athena Vakali, "Benchmarking Graph Neural Networks for Internet Routing Data", in Proc. ACM CoNEXT (GNNet workshop), December 2022`
 
-``` 
+ 
 
 Paper link: [arXiv](https://arxiv.org/pdf/2210.14189.pdf) and [ACM DL](https://dl.acm.org/doi/10.1145/3565473.3569187)
 
