@@ -1,3 +1,50 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:693d2cb0d3641e1bab01c22f776ef8637bb03555df7a914ab6f28775b7880c1c
-size 16452
+Model                               Experiment                Variation            Min RMSE     Avg RMSE    Max AUC    Avg AUC
+----------------------------------  ------------------------  ----------------  -----------  -----------  ---------  ---------
+<class 'modules.models.GraphSAGE'>  AS_hegemony               with-features     3.27264e-05  3.27266e-05
+<class 'modules.models.GCN'>        AS_hegemony               with-features     3.2673e-05   3.27063e-05
+<class 'modules.models.GAT'>        AS_hegemony               with-features     3.27264e-05  3.27264e-05
+<class 'modules.models.GIN'>        AS_hegemony               with-features     3.27264e-05  3.27265e-05
+<class 'modules.models.GraphSAGE'>  AS_hegemony               without-features  3.93556e-05  3.93556e-05
+<class 'modules.models.GCN'>        AS_hegemony               without-features  3.93526e-05  3.93539e-05
+<class 'modules.models.GAT'>        AS_hegemony               without-features  3.93556e-05  3.93556e-05
+<class 'modules.models.GIN'>        AS_hegemony               without-features  3.93543e-05  3.93684e-05
+<class 'modules.models.GraphSAGE'>  AS_rank_continent         with-features                                0.370861  0.358459
+<class 'modules.models.GCN'>        AS_rank_continent         with-features                                0.304971  0.301174
+<class 'modules.models.GAT'>        AS_rank_continent         with-features                                0.373024  0.363498
+<class 'modules.models.GIN'>        AS_rank_continent         with-features                                0.367388  0.35518
+<class 'modules.models.GraphSAGE'>  AS_rank_continent         without-features                             0.474513  0.47419
+<class 'modules.models.GCN'>        AS_rank_continent         without-features                             0.530322  0.530291
+<class 'modules.models.GAT'>        AS_rank_continent         without-features                             0.502592  0.497959
+<class 'modules.models.GIN'>        AS_rank_continent         without-features                             0.473603  0.473333
+<class 'modules.models.GraphSAGE'>  peeringDB_info_ratio      with-features                                0.573814  0.40951
+<class 'modules.models.GCN'>        peeringDB_info_ratio      with-features                                0.303017  0.29841
+<class 'modules.models.GAT'>        peeringDB_info_ratio      with-features                                0.445703  0.394878
+<class 'modules.models.GIN'>        peeringDB_info_ratio      with-features                                0.369936  0.343339
+<class 'modules.models.GraphSAGE'>  peeringDB_info_ratio      without-features                             0.469167  0.467446
+<class 'modules.models.GCN'>        peeringDB_info_ratio      without-features                             0.540009  0.539862
+<class 'modules.models.GAT'>        peeringDB_info_ratio      without-features                             0.502254  0.494712
+<class 'modules.models.GIN'>        peeringDB_info_ratio      without-features                             0.46291   0.462461
+<class 'modules.models.GraphSAGE'>  peeringDB_info_scope      with-features                                0.452552  0.359005
+<class 'modules.models.GCN'>        peeringDB_info_scope      with-features                                0.312016  0.307511
+<class 'modules.models.GAT'>        peeringDB_info_scope      with-features                                0.502502  0.465807
+<class 'modules.models.GIN'>        peeringDB_info_scope      with-features                                0.412426  0.340509
+<class 'modules.models.GraphSAGE'>  peeringDB_info_scope      without-features                             0.478485  0.478444
+<class 'modules.models.GCN'>        peeringDB_info_scope      without-features                             0.533808  0.532132
+<class 'modules.models.GAT'>        peeringDB_info_scope      without-features                             0.505566  0.497403
+<class 'modules.models.GIN'>        peeringDB_info_scope      without-features                             0.480141  0.480014
+<class 'modules.models.GraphSAGE'>  peeringDB_info_type       with-features                                0.46469   0.375068
+<class 'modules.models.GCN'>        peeringDB_info_type       with-features                                0.450254  0.122513
+<class 'modules.models.GAT'>        peeringDB_info_type       with-features                                0.423332  0.0985954
+<class 'modules.models.GIN'>        peeringDB_info_type       with-features                                0.450254  0.192353
+<class 'modules.models.GraphSAGE'>  peeringDB_info_type       without-features                             0.46625   0.281857
+<class 'modules.models.GCN'>        peeringDB_info_type       without-features                             0.462739  0.326492
+<class 'modules.models.GAT'>        peeringDB_info_type       without-features                             0.46625   0.187046
+<class 'modules.models.GIN'>        peeringDB_info_type       without-features                             0.447913  0.121966
+<class 'modules.models.GraphSAGE'>  peeringDB_policy_general  with-features                                0.463614  0.376356
+<class 'modules.models.GCN'>        peeringDB_policy_general  with-features                                0.298305  0.293461
+<class 'modules.models.GAT'>        peeringDB_policy_general  with-features                                0.432917  0.392416
+<class 'modules.models.GIN'>        peeringDB_policy_general  with-features                                0.39495   0.330352
+<class 'modules.models.GraphSAGE'>  peeringDB_policy_general  without-features                             0.486835  0.485693
+<class 'modules.models.GCN'>        peeringDB_policy_general  without-features                             0.540881  0.540654
+<class 'modules.models.GAT'>        peeringDB_policy_general  without-features                             0.535994  0.508088
+<class 'modules.models.GIN'>        peeringDB_policy_general  without-features                             0.483315  0.482305

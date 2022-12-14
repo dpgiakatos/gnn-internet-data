@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:292880de93a9eb2eb19741bd75132cf4a41e55d65d2a1f5cb6bc5866b805ce64
-size 2994
+Model                               Experiment    Variation                  Max AUC    Avg AUC
+----------------------------------  ------------  -----------------------  ---------  ---------
+<class 'modules.models.GraphSAGE'>  gnn           with-features             0.980631   0.976739
+<class 'modules.models.GCN'>        gnn           with-features             0.955098   0.946023
+<class 'modules.models.GAT'>        gnn           with-features             0.947815   0.77989
+<class 'modules.models.GIN'>        gnn           with-features             0.730399   0.481643
+<class 'modules.models.GraphSAGE'>  gnn           without-features          0.733038   0.65421
+<class 'modules.models.GCN'>        gnn           without-features          0.799358   0.780758
+<class 'modules.models.GAT'>        gnn           without-features          0.882592   0.688303
+<class 'modules.models.GIN'>        gnn           without-features          0.822504   0.409469
+<class 'modules.models.MLP'>        node2vec      embeddings16-10-100       0.892173   0.867238
+<class 'modules.models.MLP'>        node2vec      embeddings16-50-200       0.869124   0.851182
+<class 'modules.models.MLP'>        node2vec      embeddings16-wl40-nm150   0.883046   0.859771
