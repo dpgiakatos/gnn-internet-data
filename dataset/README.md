@@ -16,6 +16,8 @@ Both function takes the same parameters and creates two files, one with the feat
 
 The `create_files.py` file contains some examples.
 
+PS - unzip the node_features.zip.
+
 ## Directory structure
 
 The structure for the benchmarking should be in the format that presented bellow.
